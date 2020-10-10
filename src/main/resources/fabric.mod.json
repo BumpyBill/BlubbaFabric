@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "blubba",
+  "version": "${version}",
+
+  "name": "Blubba",
+  "description": "Compile JavaScript Code Into Diamondfire Templates",
+  "authors": [
+    "BumpyBill",
+    "Proximitynow"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/BumpyBill/BlubbaFabric"
+  },
+
+  "license": "MIT",
+  "icon": "assets/blubba/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bumpybill.blubba.Blubba"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
